@@ -2,7 +2,7 @@
 - Set the 4 input bits (X = x3x2x1x0) to the desired value and “press” Enter (set Enter input HIGH).
   The door will open if input matches the stored combination ('o' will be displayed). Alarm will go active ('A' will be displayed) if two incorrect combinations are entered consecutively. The alarm can only be cancelled by pressing the reset button. 
   When the system is reset, the stored combination should be set to ’0110’. To change the combination, set the input to the old combination and “press” Change (set Change input HIGH). If this is done correctly, output New ('n') goes HIGH to signal user to enter new combination. Set the 4 input bits to the
-  new combination and “press” either Change or Enter to store the new value. Two incorrect valueswill set off the alarm as above. 
+  new combination and “press” either Change or Enter to store the new value. Two incorrect values will set off the alarm as above. 
 
 ### Implementation
 - Implemented with Moore Finite State Machine using Verilog
